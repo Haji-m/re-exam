@@ -16,7 +16,7 @@
         </header>
     </div>
     <h2 class="content__title">Contact</h2>
-    <form class="form" action="/confirm" method="post">
+    <form class="form" action="/contacts/confirm" method="post">
         @csrf
         <main class="content">
             <div class="content-item">

@@ -18,7 +18,7 @@ class CreateContactsTable extends Migration
             $table->string('name1');
             $table->string('name2');
             $table->string('email');
-            $table->string('tel',4);
+            $table->integer('tel');
             $table->string('address');
             $table->string('building');
             $table->text('content');

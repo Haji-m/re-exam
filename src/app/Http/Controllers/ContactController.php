@@ -22,8 +22,8 @@ class ContactController extends Controller
     $contact = $request->only(['name1','name2','gender','email','tel', 'address', 'building', 'type', 'content']);
     }
 
-    public function thanks()
-    {
-        return view('thanks');
-    }
+    // public function thanks()
+    // {
+    //     return view('thanks');
+    // }
 }
