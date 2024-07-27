@@ -16,7 +16,7 @@
         </header>
     </div>
     <h2 class="content__title">Contact</h2>
-    <form class="form" action="/contacts" method="post">
+    <form class="form" action="/contact/thanks" method="get">
     @csrf
     <table class="content-item">
                 <main class="content">

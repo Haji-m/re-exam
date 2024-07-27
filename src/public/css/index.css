@@ -15,7 +15,6 @@ body {
     justify-content: center;
 }
 
-.content,
 .content__title,
 .content--button {
     display: flex;
@@ -88,7 +87,7 @@ body {
 
 #male,
 #female,
-#anothor {
+#another {
     accent-color: #8B7969;
     margin: 50px 10px;
     border: none;
