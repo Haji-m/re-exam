@@ -1,0 +1,44 @@
+body {
+    font-family: 'Inika';
+    color: #8B7969;
+}
+
+.content__background,
+.content__front--button {
+    font-family: 'Inika';
+}
+
+.content__background {
+    font-size: 280px;
+    position: relative;
+    top: 150px;
+    color: rgba(139, 121, 105, 0.05);
+    margin: 0 10px;
+}
+
+.content__front-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 280px;
+    left: 35%;
+}
+
+.content__front--message {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content__front--button {
+    height: 26px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+    background: #82756A;
+    padding: 20px 10px;
+    margin-left: 40%;
+}

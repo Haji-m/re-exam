@@ -1,0 +1,124 @@
+body {
+    font-family: 'Inika';
+    font-weight: lighter;
+    color: #8B7969;
+}
+
+.header {
+    height: 100px;
+    width: auto;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header-item {
+    display: flex;
+    justify-content: center;
+}
+
+.content,
+.content__title,
+.content--button {
+    display: flex;
+    justify-content: center;
+}
+
+.content-item__cover {
+    height: 38px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.content__title {
+    margin: 50px 0;
+}
+
+.content-item__title {
+    width: 300px;
+}
+
+.required--red {
+    color: red;
+    margin-left: 5px;
+}
+
+.content-item__form-item,
+.content-item__form-item--short {
+    padding: 15px 0 15px 10px;
+    border: none;
+    background: #F4F4F4;
+}
+
+.content-item__form-item {
+    width: 620px;
+}
+
+::placeholder,
+#type {
+    color: #BEB1A6;
+}
+
+#name1 {
+    margin-right: 12px;
+}
+
+#name2,
+#tel2,
+#tel3 {
+    margin-left: 10px;
+}
+
+#tel1,
+#tel2 {
+    margin-right: 12px;
+}
+
+#name1,
+#name2 {
+    width: 290px;
+}
+
+#tel1,
+#tel2,
+#tel3 {
+    width: 178px;
+}
+
+#male,
+#female,
+#anothor {
+    accent-color: #8B7969;
+    margin: 50px 10px;
+    border: none;
+}
+
+#type {
+    width: 332px;
+}
+
+
+/* 以下は、種類の選択のプルダウンの横の逆三角が表示されないため、思いついた時のためにヒントとしてコメントアウト。。*/
+
+/* .content-item__form-item__type::after{
+    content: "";
+    position: absolute;
+    border: 6px solid red;
+    border-top: 7px solid #555;
+}
+
+.content-item__form-item__type{
+    position: relative;
+} */
+
+
+.content--button {
+    height: 46px;
+    width: 160px;
+    align-items: center;
+    margin: 50px 0 50px 45%;
+    color: #FFFFFF;
+    border: none;
+    background: #82756A;
+}

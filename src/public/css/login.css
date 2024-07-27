@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inika';
+    color: #8B7969;
+}
+
+.header {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header__button {
+    font-family: 'Inika';
+    position: absolute;
+    right: 100px;
+    color: #D9C6B5;
+    border: 1px solid #D9C6B5;
+    background: rgba(240, 240, 240, 0.6);
+    padding: 5px 30px;
+}
+
+.content__title,
+.content__cover,
+.content-item__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #F1ECE7;
+}
+
+.content__title {
+    padding: 60px;
+    margin: 0 60px;
+}
+
+.content__cover {
+    padding-bottom: 100px;
+}
+
+.content-item__cover {
+    background: #FFFFFF;
+    padding: 100px 150px 100px 150px;
+    margin-bottom: 60px;
+}
+
+.content-item {
+    margin-bottom: 30px;
+}
+
+.content-item__form-cover {
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.content-item__title {
+    margin-bottom: 20px;
+}
+
+.content-item__form {
+    height: 50px;
+    width: 450px;
+    border: none;
+    background: #F4F4F4;
+}
+
+::placeholder {
+    padding-left: 30px;
+    color: #BEB1A6;
+}
+
+.content-item__button-item {
+    height: 50px;
+    width: 160px;
+    color: #FFFFFF;
+    border: none;
+    background: #82756A;
+    margin-top: 50px;
+}
