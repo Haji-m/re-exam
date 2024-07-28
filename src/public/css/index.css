@@ -1,5 +1,4 @@
 body {
-    margin: 0 auto;
     font-family: 'Inika';
     font-weight: lighter;
     color: #8B7969;
@@ -16,11 +15,7 @@ body {
     justify-content: center;
 }
 
-.form{
-    margin: 0 auto;
-}
-
-.content-item,
+.content,
 .content__title,
 .content--button {
     display: flex;
